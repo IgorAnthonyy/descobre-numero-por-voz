@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap");
+body {
+  background-color: #454545;
+  color: #ff7300;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+}
+body h1 {
+  font-size: 4em;
+  letter-spacing: 12px;
+}
+body h2 {
+  font-size: 4em;
+}
+body h3 {
+  font-size: 2em;
+  margin-top: 30px;
+}
+body .mensagem {
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+body .mensagem .box {
+  border: 2px solid #ff7300;
+  display: inline-block;
+  font-size: 4em;
+  padding: 10px;
+  margin: 20px;
+}
+body .btn-jogar {
+  cursor: pointer;
+  font-size: 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 40px;
+  padding: 20px;
+  color: #ff7300;
+  border-radius: 100px;
+  border: 2px solid #ff7300;
+  background-color: transparent;
+}/*# sourceMappingURL=style.css.map */
