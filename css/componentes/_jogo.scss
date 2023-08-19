@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import '../abstract/variaveis'; 
+body {
+    background-color: $bg-color;
+    color: $primary-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: $font-principal;
+    h1 {
+        font-size: 4em;
+        letter-spacing: 12px;
+    }
+    h2{
+        font-size: 4em;
+    }
+    h3 {
+        font-size: 2em;
+        margin-top: 30px;
+    }
+    .mensagem {
+        font-size: 1.5em;
+        margin-top: 40px;
+        .box {
+            border: 2px solid $primary-color;
+            display: inline-block;
+            font-size: 4em;
+            padding: 10px;
+            margin: 20px;
+        }
+    }
+    .btn-jogar{
+        cursor: pointer;
+        font-size: 1.5em;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: 40px;
+        padding: 20px;
+        color: $primary-color;
+        border-radius: 100px;
+        border: 2px solid $primary-color;
+        background-color: transparent;
+    }
+}
